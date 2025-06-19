@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+
+[data-sonner-toast][data-mounted=true][data-expanded=true] {
+    border-radius: 24px;
+}
+
+@font-face {
+    font-family: 'dgo';
+    src: url('./fonts/DelaGothicOne-Regular.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'roboto_flex';
+    src: url('./fonts/RobotoFlex-Variable.woff2') format('woff2');
+}
